@@ -27,7 +27,7 @@ type:Number
  ],
  category: {
         type: String,
-        enum: ["Trending", "Rooms", "Iconic cities", "Mountains", "Castles", "Amazing pool","Camping"], // sample categories
+        enum: ["Trending", "Rooms", "Iconic cities", "Mountain", "Castles", "Amazing pool","Camping"], // sample categories
         default: "Other"
     },
  owner : {
