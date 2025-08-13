@@ -11,7 +11,7 @@ const  userContrrollers = require("../controllers/users.js");
 
 router.route("/signup")
 .get(userContrrollers.renderSignUpForm)
-.post(wrapasync(userContrrollers.signup))
+.post(wrapAsync(userContrrollers.signup))
 
 
 
